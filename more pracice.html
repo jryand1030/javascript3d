@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="p5/p5.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+    
+    function setup() {
+  createCanvas(1000, 1000, WEBGL);
+  rectMode(CENTER);
+}
+
+function draw() {
+  background(200);
+
+
+  rotateX(frameCount * 0.01);
+  rotateZ(frameCount * 0.01);
+
+
+
+  cylinder(20, 200,24,);
+  translate(0,250);
+  cylinder(10,300,24);
+  ellipse(0,0,100,10);
+ 
+  scale(-1);
+  fill(100);
+
+}
+        
+        
+    </script>
+</body>
+</html>
